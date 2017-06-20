@@ -1,0 +1,26 @@
+{
+  "name": "fipeinfo",
+  "version": "1.0.0",
+  "description": "Api Rest para consulta da api da  fipe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelolimabh/fipeinfo.git"
+  },
+  "author": "marcelolimabh@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelolimabh/fipeinfo/issues"
+  },
+  "homepage": "https://github.com/marcelolimabh/fipeinfo#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-load": "^1.1.16",
+    "express-validator": "^3.2.0",
+    "restify": "^4.3.0"
+  }
+}
