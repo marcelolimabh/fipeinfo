@@ -1,9 +1,9 @@
 module.exports = function(app){
 
-    app.get("/veiculos", function(req, res){
+    app.get('/veiculos/:id', function(req, res){
 
         
-        var tipoVeiculo = req.param.tipoVeiculo;
+        var tipoVeiculo = req.param.id;
         
 
         console.log(tipoVeiculo);
